@@ -1,0 +1,42 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 30px;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  width: 100%;
+  justify-content: Center;
+}
+
+.heading {
+  color: #fff;
+}
+
+.avatar-img {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.arrows-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border-width: 0;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.arrow {
+  height: 30px;
+}
+
+.username {
+  color: #fff;
+  font-weight: bold;
+}
